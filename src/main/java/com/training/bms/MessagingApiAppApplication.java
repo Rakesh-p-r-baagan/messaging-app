@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class MessagingApiAppApplication {
 	
 	 @GetMapping("/weekend")
-	 
 	    public String greet() {
 	        return "Saturday and Sunday";
 	    }
