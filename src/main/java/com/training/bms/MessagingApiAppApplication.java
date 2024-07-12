@@ -9,14 +9,15 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MessagingApiAppApplication {
 	
-	 @GetMapping("/greeting")
+	 @GetMapping("/weekend")
 	 
 	    public String greet() {
-	        return "Hello, Jenkins!";
+	        return "Saturday and Sunday";
 	    }
 
 	public static void main(String[] args) {
 		SpringApplication.run(MessagingApiAppApplication.class, args);
+		System.out.println("Hello Sir,Im Rakesh");
 	}
 
 }

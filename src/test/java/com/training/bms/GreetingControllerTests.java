@@ -19,6 +19,6 @@ public class GreetingControllerTests {
     public void testGreetingEndpoint() throws Exception {
         mockMvc.perform(MockMvcRequestBuilders.get("/greeting"))
                 .andExpect(MockMvcResultMatchers.status().isOk())
-                .andExpect(MockMvcResultMatchers.content().string("Hello, Jenkins!"));
+                .andExpect(MockMvcResultMatchers.content().string("Saturday and Sunday"));
     }
 }
