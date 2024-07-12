@@ -11,7 +11,7 @@ public class MessagingApiAppApplication {
 	
 	 @GetMapping("/weekend")
 	    public String greet() {
-	        return "Saturday and Sunday";
+	        return "Saturday and Sunday.....";
 	    }
 
 	public static void main(String[] args) {
