@@ -11,7 +11,8 @@ public class MessagingApiAppApplication {
 	
 	 @GetMapping("/weekend")
 	    public String greet() {
-	        return "Saturday and Sunday.....";
+		 System.out.println("Hello Sir,Im Rakesh inside weekend");
+	        return "Saturday and Sunday";
 	    }
 
 	public static void main(String[] args) {

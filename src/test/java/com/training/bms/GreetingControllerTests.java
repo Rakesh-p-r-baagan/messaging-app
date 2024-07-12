@@ -15,10 +15,10 @@ public class GreetingControllerTests {
     @Autowired
     private MockMvc mockMvc;
 
-//    @Test
-//    public void testGreetingEndpoint() throws Exception {
-//        mockMvc.perform(MockMvcRequestBuilders.get("/greeting"))
-//                .andExpect(MockMvcResultMatchers.status().isOk())
-//                .andExpect(MockMvcResultMatchers.content().string("Saturday and Sunday"));
-//    }
+    @Test
+    public void testGreetingEndpoint() throws Exception {
+        mockMvc.perform(MockMvcRequestBuilders.get("/weekend"))
+                .andExpect(MockMvcResultMatchers.status().isOk())
+                .andExpect(MockMvcResultMatchers.content().string("Saturday and Sunday"));
+    }
 }
